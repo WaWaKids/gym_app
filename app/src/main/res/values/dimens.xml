@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">17sp</dimen>
+    <dimen name="home_item_margin">5px</dimen>
+    <dimen name="home_item_width">300px</dimen>
+    <dimen name="home_item_heigth">246px</dimen>
+    <dimen name="home_wide_item_width">610px</dimen>
+    <dimen name="WORating_item_width">172px</dimen>
+    <dimen name="WORating_item_heigth">139px</dimen>
+    <dimen name="WORating_grid_item_heigth">452px</dimen>
+    <dimen name="WORating_grid_item_width">400px</dimen>
+    <dimen name="button_menu_heigth">69px</dimen>
+    <dimen name="button_menu_width">144px</dimen>
+    <dimen name="button_menu_margin_top">20dp</dimen>
+    <dimen name="button_menu_margin_end">25dp</dimen>
+    <dimen name="info_item_width">453px</dimen>
+    <dimen name="info_item_heigth">425px</dimen>
+</resources>

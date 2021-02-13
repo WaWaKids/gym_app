@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">gym_app</string>
+    <string name="our_services">Наши услуги</string>
+    <string name="exit">Выйти</string>
+    <string name="workout_rating">Оценка тренировки</string>
+    <string name="menu">Меню</string>
+</resources>

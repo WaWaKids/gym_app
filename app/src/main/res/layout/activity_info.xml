@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="915px"
+                android:layout_height="@dimen/info_item_heigth"
+                android:src="@drawable/button_sport_types"
+                android:layout_margin="@dimen/home_item_margin"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="@dimen/info_item_width"
+                android:layout_height="@dimen/info_item_heigth"
+                android:layout_margin="@dimen/home_item_margin"
+                android:src="@drawable/button_spa"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="@dimen/info_item_width"
+                android:layout_height="@dimen/info_item_heigth"
+                android:layout_margin="@dimen/home_item_margin"
+                android:src="@drawable/button_our_trainers"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/info_item_width"
+                android:layout_height="@dimen/info_item_heigth"
+                android:layout_margin="@dimen/home_item_margin"
+                android:src="@drawable/button_sport_equip"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="@dimen/info_item_width"
+                android:layout_height="@dimen/info_item_heigth"
+                android:layout_margin="@dimen/home_item_margin"
+                android:src="@drawable/button_sport_nutrition"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="@dimen/info_item_width"
+                android:layout_height="@dimen/info_item_heigth"
+                android:layout_margin="@dimen/home_item_margin"
+                android:src="@drawable/button_our_gyms"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="@dimen/info_item_width"
+                android:layout_height="@dimen/info_item_heigth"
+                android:layout_margin="@dimen/home_item_margin"
+                android:src="@drawable/button_about_club"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
